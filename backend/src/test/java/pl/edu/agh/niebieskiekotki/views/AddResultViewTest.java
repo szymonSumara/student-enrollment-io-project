@@ -7,6 +7,9 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class AddResultViewTest {
     @Test
+    
+    
+    
     void toStringTest() {
         AddResultView view = new AddResultView(1L, 1L, 1L);
         assertThat(view.toString()).isEqualTo("AddResultView{" +
